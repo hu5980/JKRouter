@@ -37,6 +37,9 @@
     [alert show];
 }
 
+- (void)setTestContent:(NSString *)testContent {
+    self.testContent = testContent;
+}
 
 
 -(void)clickToBack{

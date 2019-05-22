@@ -20,7 +20,6 @@
 
 @interface RouterOptions : NSObject
 
-
 @property (nonatomic, readwrite) RouterTransformVCStyle transformStyle;  ///< 转场方式
 
 @property (nonatomic, assign) RouterCreateStyle  createStyle;           ///< vc 的创建方式
